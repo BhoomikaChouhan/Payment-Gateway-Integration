@@ -1,0 +1,75 @@
+:root {
+  --primary-color: #007bff;
+  --secondary-color: #0095ff;
+  --dark-color: #232323;
+  --light-color: #f1f1f1;
+  --text-color: #fff;
+  --highlight-color: #ff0000;
+}
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(
+    to bottom right,
+    var(--dark-color),
+    var(--primary-color)
+  );
+  color: var(--text-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+h1 {
+  margin-bottom: 40px;
+  color: #74ebd5;
+  font-size: 32px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.payment-form {
+  margin-top: 20px;
+}
+
+label {
+  margin-bottom: 10px;
+  display: block;
+  font-weight: bold;
+  color: #74ebd5;
+  text-align: left;
+}
+
+input[type="text"] {
+  padding: 5px;
+  width: 300px;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  padding: 20px;
+  border-radius: 10px;
+  background: linear-gradient(to right, #74ebd5, #acb6e5);
+  color: #100e0e;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: transform 0.3s ease;
+  width: 100%;
+}
