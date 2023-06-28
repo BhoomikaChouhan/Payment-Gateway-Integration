@@ -1,4 +1,4 @@
-// Replace 'YOUR_API_KEY' with your actual Razorpay API key
+
 const apiKey = 'rzp_test_UKPB8fBFotEhIM';
 
 // Function to initialize the payment
